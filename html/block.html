@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Form - 1</title>
+</head>
+<body>
+    <form action="../sendm.php" method="POST" class="contacts-form">
+        <h4 class="form-title">Задать вопрос</h4>
+        <div class="contacts-input">
+          <div class="contacts-name-email">
+            <input type="name" name="name" class="input input-name" placeholder="Ваше имя"/>
+            <input type="email" name="email" class="input input-email" placeholder="Ваш email"/>
+          </div>
+
+          <input type="text" name="message" class="input input-message" placeholder="Ваше сообщение"/>
+        </div>
+        <button class="button form-button" type="submit" name="send">
+          Отправить сообщение
+        </button>
+      </form>
+      <!-- <div class="help-block" data-title="email: qwerty@mail.ru | password: 12345">
+        <img src="img/question.svg" alt="help" class="help-img">
+      </div> -->
+    </body>
+</html>
